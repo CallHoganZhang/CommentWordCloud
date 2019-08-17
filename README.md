@@ -11,7 +11,7 @@ you can generate the wordcloud
 it is worth noting you can use different image as the mask
 
 
-step one;
+step one:
 you should cut the string you got with 'jieba.cut'
 strp two:
 you can joint there words what you cut before
