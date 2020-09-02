@@ -1,19 +1,18 @@
-In order to get Some comments what you want,you open JD Website with your browser, you will find a product page.
-Then you click F12,click on network in  the buttom and click on next page in your page showing the goods
-you will find 'productPageComments.action in the below.
-this line, show as below.
-the one you get will be a base url for crawling later
-and you should remember the callback like  'fetchJSON_comment98vv4563',this one will point to the json file including the comments you need
+为了得到您想要的一些评论，您使用浏览器打开JD网站，您将找到一个产品页面。
+然后单击F12，单击按钮的网络，然后单击显示商品的页面的下一页
+您将在下面找到“ productPageComments.action”。
+这条线，如下所示。
+您获得的将是用于稍后爬网的基本URL
+并且您应该记住类似“ fetchJSON_comment98vv4563”的回调，该回调将指向包含所需注释的json文件
 
 
-When you get the comments after following my code
-you can generate the wordcloud
-it is worth noting you can use different image as the mask
+当您遵循我的代码后收到评论时
+你可以生成wordcloud
+值得注意的是，您可以使用其他图像作为蒙版
 
 
-step one:
-you should cut the string you got with 'jieba.cut'
-strp two:
-you can joint there words what you cut before
-notice:cut_all=True/False.if you choose True as param,the words in this sentence can be split all in sencods
-
+步骤1：
+您应该使用“ jieba.cut”剪切字符串
+第二步：
+你可以在这里把你之前剪过的词
+注意：cut_all = True / False。如果选择“ True”作为参数，则该句子中的单词可以全部用分词分隔
